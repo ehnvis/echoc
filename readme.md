@@ -26,7 +26,9 @@ to make a PCB.
 
 Copy this repo directory to your qmk_firmware/keyboards directory.
 Then you can compile or flash with the two below commands.
+
     qmk compile -kb echoc -km default
+    
     qmk flash -kb echoc -km default
 
 See the [build environment setup](https://docs.qmk.fm/#/getting_started_build_tools) and the [make instructions](https://docs.qmk.fm/#/getting_started_make_guide) for more information. Brand new to QMK? Start with our [Complete Newbs Guide](https://docs.qmk.fm/#/newbs).
